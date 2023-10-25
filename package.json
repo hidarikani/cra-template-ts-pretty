@@ -1,24 +1,22 @@
 {
-  "name": "cra-template-typescript",
+  "name": "cra-template-ts-pretty",
   "version": "1.2.0",
   "keywords": [
     "react",
     "create-react-app",
     "template",
-    "typescript"
+    "typescript",
+    "prettier",
+    "husky"
   ],
-  "description": "The base TypeScript template for Create React App.",
+  "description": "Code formatting tools on top of the base TypeScript template for Create React App.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
-    "directory": "packages/cra-template-typescript"
+    "url": "https://github.com/hidarikani/cra-template-ts-pretty.git"
   },
   "license": "MIT",
   "engines": {
     "node": ">=14"
-  },
-  "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
   },
   "files": [
     "template",
