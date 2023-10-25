@@ -1,0 +1,19 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Initialized from gitignore
+
+# By default prettier ignores files in version control systems directories (".git", ".svn" and ".hg") 
+# ... and node_modules (if --with-node-modules CLI option not specified)
+
+# dependencies
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# static
+public
+
+# production
+/build
