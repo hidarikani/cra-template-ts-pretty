@@ -2,6 +2,7 @@
   "package": {
     "scripts": {
       "prepare": "husky install",
+      "fix": "eslint --ext .ts,.tsx,.json --fix .",
       "format": "prettier --write . --ignore-unknown"
     },
     "dependencies": {
@@ -23,6 +24,9 @@
       "extends": ["react-app", "react-app/jest", "prettier"]
     },
     "lint-staged": {
+      "*.ts": "eslint --fix",
+      "*.tsx": "eslint --fix",
+      "*.json": "eslint --fix",
       "**/*": "prettier --write --ignore-unknown"
     }
   }
