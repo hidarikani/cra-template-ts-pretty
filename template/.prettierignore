@@ -8,8 +8,15 @@
 # testing
 /coverage
 
+# pub
+public
+
 # production
 /build
+
+# conf
+.gitignore
+.editorconfig
 
 # misc
 .DS_Store

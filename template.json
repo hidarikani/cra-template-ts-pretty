@@ -1,7 +1,8 @@
 {
   "package": {
     "scripts": {
-      "prepare": "husky install"
+      "prepare": "husky install",
+      "format": "prettier --write . --ignore-unknown"
     },
     "dependencies": {
       "@testing-library/jest-dom": "^5.14.1",

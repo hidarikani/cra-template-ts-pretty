@@ -1,6 +1,13 @@
 # cra-template-typescript-pretty
 
-Adds additional code formatting capabilities. Based on the official TypeScript template for [Create React App](https://github.com/facebook/create-react-app). Includes Prettier configured to work with ESlint and format on committing.
+Adds additional code formatting capabilities. Based on the official TypeScript template for [Create React App](https://github.com/facebook/create-react-app).
+Features:
+
+- Prettier configured to work with ESlint. 
+- All Prettier settings are default.
+- `.editorconfig` compatible with default Prettier settings.
+- Pre-commit lint.
+- Pre-commit format.
 
 To use this template, add `--template ts-pretty` when creating a new app.
 
